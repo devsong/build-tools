@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <groupId>io.github.devsong</groupId>
     <artifactId>build-tools</artifactId>
-    <version>${project.version}</version>
+    <version>${deploy.version}</version>
     <packaging>jar</packaging>
     <url>https://github.com/devsong/build-tools</url>
     <description>common maven build tools for pmd checkstyle config</description>
@@ -65,7 +65,7 @@
             </distributionManagement>
 
             <properties>
-                <project.version>1.0.1</project.version>
+                <deploy.version>1.0.1</deploy.version>
             </properties>
         </profile>
 
@@ -82,7 +82,7 @@
                 </snapshotRepository>
             </distributionManagement>
             <properties>
-                <project.version>1.0.0-SNAPSHOT</project.version>
+                <deploy.version>1.0.0-SNAPSHOT</deploy.version>
             </properties>
             <activation>
                 <activeByDefault>true</activeByDefault>
